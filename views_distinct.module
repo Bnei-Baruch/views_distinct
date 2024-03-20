@@ -273,7 +273,7 @@ function _views_distinct_field_settings_defaults() {
  *   An array of default settings (filter_action, post_render).
  */
 function _views_distinct_field_settings_get($view, string $field_id, string $display_id = 'default') {
-  if (!($view instanceof View) || !($view instanceof ViewUI)) {
+  if (!($view instanceof View) && !($view instanceof ViewUI)) {
     \Drupal::logger('views_distinct')->notice('Cannot use view object to get third party settings.');
   }
 
