@@ -1,8 +1,8 @@
 {
 	"name": "bb/views_distinct",
 	"description": "BB fork for https://git.drupalcode.org/issue/views_distinct-3384098.git",
-	"version": "1.0.0",
-	"type": "civicrm-ext",
+	"version": "1.0.1",
+	"type": "drupal-module",
 	"homepage": "https://github.com/Bnei-Baruch/views_distinct",
 	"license": "AGPL-3.0",
 	"authors": [
